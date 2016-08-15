@@ -1,6 +1,6 @@
 # Learn Swift
 
-This repo is forked from [allenwong/30DaysofSwift](https://github.com/allenwong/30DaysofSwift).
+This repo is based on [allenwong/30DaysofSwift](https://github.com/allenwong/30DaysofSwift).
 
 这个仓库是在[allenwong/30DaysofSwift](https://github.com/allenwong/30DaysofSwift)的基础上创建的。
 
@@ -15,9 +15,9 @@ This branch will keep my codes and photos, and master branch keeps all code from
 
 ## Hi Community
 
-## Project01 - [SimpleStopWatch](https://github.com/zhangshea/30DaysofSwift/tree/XYZHDEV/Project01_SimpleStopWatch)
+## Project01 - [SimpleStopWatch](https://github.com/zhangshea/30DaysofSwift/tree/master/Project01_SimpleStopWatch)
 
-<img src="https://raw.githubusercontent.com/zhangshea/30DaysofSwift/XYZHDEV/Project01_SimpleStopWatch/01.gif" alt="SimpleStopWatch" width="288" height="512" />
+<img src="https://raw.githubusercontent.com/zhangshea/30DaysofSwift/master/Project01_SimpleStopWatch/01.gif" alt="SimpleStopWatch" width="288" height="512" />
 
 ## End of my repo
 Thanks guys!
