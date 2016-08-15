@@ -4,11 +4,11 @@ This repo is based on [allenwong/30DaysofSwift](https://github.com/allenwong/30D
 
 这个仓库是在[allenwong/30DaysofSwift](https://github.com/allenwong/30DaysofSwift)的基础上创建的。
 
-This branch will keep my codes and photos, and master branch keeps all code from primary repo(or go to primary repo to see the lastest codes). Hope we always can learn something to make us stronger.
+The reason create this repo is to learn Swift language in practice, improve the skill of iOS development.
 
-这个分支用于保持我的代码和应用截图，原来的代码都托管来master分支下（也可以去原po看更新版本的代码）。学习，学习。
+创建这个仓库的原因是希望能够在实践中学习Swift，磨练iOS开发技巧。
 
-# Some Reference
+# Some material
 - [How-to-make-gif](https://github.com/zhangshea/30DaysofSwift/wiki/How-to-make-gif)
 
 # Zhangshea's 30 Days of Swift
