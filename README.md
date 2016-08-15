@@ -8,6 +8,10 @@ The reason create this repo is to learn Swift language in practice, improve the 
 
 创建这个仓库的原因是希望能够在实践中学习Swift，磨练iOS开发技巧。
 
+This repo has a wiki.
+
+这个仓库是有wiki的。
+
 # Some material
 - [How-to-make-gif](https://github.com/zhangshea/30DaysofSwift/wiki/How-to-make-gif)
 
