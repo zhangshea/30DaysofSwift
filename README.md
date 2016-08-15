@@ -17,7 +17,7 @@ This branch will keep my codes and photos, and master branch keeps all code from
 
 ## Project01 - [SimpleStopWatch](https://github.com/zhangshea/30DaysofSwift/tree/master/Project01_SimpleStopWatch)
 
-<img src="https://raw.githubusercontent.com/zhangshea/30DaysofSwift/master/Project01_SimpleStopWatch/01.gif" alt="SimpleStopWatch" width="288" height="512" />
+![SimpleStopWatch](https://raw.githubusercontent.com/zhangshea/30DaysofSwift/master/Project01_SimpleStopWatch/01.gif)
 
 ## End of my repo
 Thanks guys!
