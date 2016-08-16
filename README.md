@@ -21,7 +21,11 @@ This repo has a wiki.
 
 ## Project01 - [SimpleStopWatch](https://github.com/zhangshea/30DaysofSwift/tree/master/Project01_SimpleStopWatch)
 
-![SimpleStopWatch](https://raw.githubusercontent.com/zhangshea/30DaysofSwift/master/Project01_SimpleStopWatch/01.gif)
+<img src="https://raw.githubusercontent.com/zhangshea/30DaysofSwift/master/Project01_SimpleStopWatch/01.gif" alt="SimpleStopWatch" width="288" height="512" />
+
+## Project02 - [CustomFont](https://github.com/zhangshea/30DaysofSwift/tree/master/Project02_CustomFont)
+
+<img src="https://raw.githubusercontent.com/zhangshea/30DaysofSwift/master/Project02_CustomFont/02.gif" alt="CustomFont" width="288" height="512" />
 
 ## End of my repo
 Thanks guys!
