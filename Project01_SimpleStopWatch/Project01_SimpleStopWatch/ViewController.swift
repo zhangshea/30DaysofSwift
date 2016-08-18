@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var viewControllerTimer = NSTimer.init()
-    var viewControllerTimeNumber : Int = 0
     @IBOutlet weak var TimeTextField: UITextField!
 
+    var viewControllerTimer: NSTimer = NSTimer.init()
+    var viewControllerTimerSetFlag: Bool = false
+    var viewControllerTimeNumber: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -36,17 +38,24 @@ class ViewController: UIViewController {
     @IBAction func StartTouchDown(sender: AnyObject) {
         NSLog("STD: Fire")
         
+        if (viewControllerTimerSetFlag) {
+            return
+        }
+        // create the timer and schedule it on the current run loop in the default mode
+        
         viewControllerTimer = NSTimer.scheduledTimerWithTimeInterval(0.1,
                                                                      target: self,
-                                                                     selector: #selector(ViewController.viewControllerTimerFire),
-                                                                     userInfo: nil,
-                                                                     repeats: true)
+                                                                   selector: #selector(ViewController.viewControllerTimerFire),
+                                                                   userInfo: nil,
+                                                                   repeats: true)
+        viewControllerTimerSetFlag = true
     }
     
     @IBAction func StopTouchDown(sender: AnyObject) {
         NSLog("STD: Stop")
         
         viewControllerTimer.invalidate()
+        viewControllerTimerSetFlag = false
     }
     @IBAction func ResetTouchDown(sender: AnyObject) {
         NSLog("RTD: Reset")
