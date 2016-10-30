@@ -23,18 +23,18 @@ class ViewController: UIViewController {
         changeFontButton!.layer.masksToBounds = true
         changeFontButton!.layer.cornerRadius = changeFontButton!.layer.bounds.width
         changeFontButton!.layer.borderWidth = 5
-        changeFontButton!.layer.borderColor = UIColor.whiteColor().CGColor
+        changeFontButton!.layer.borderColor = UIColor.white.cgColor
         
-        let fontsFamily = UIFont.familyNames()
+        let fontsFamily = UIFont.familyNames
         for fontsFamilyName in fontsFamily {
-            let fontsUnderFamilyName = UIFont.fontNamesForFamilyName(fontsFamilyName)
+            let fontsUnderFamilyName = UIFont.fontNames(forFamilyName: fontsFamilyName)
             for fontsName in fontsUnderFamilyName {
                 fonts.append(fontsName)
             }
         }
-        topTextView.selectable = true
+        topTextView.isSelectable = true
         topTextFontSize = (topTextView.font?.pointSize)!
-        topTextView.selectable = false
+        topTextView.isSelectable = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func changeFont(sender: UIButton) {
+    @IBAction func changeFont(_ sender: UIButton) {
         NSLog("changeFont button press")
         
         whichFontNumber += 1
@@ -50,8 +50,7 @@ class ViewController: UIViewController {
             topTextView.font = UIFont.init(name: "OpenSans-Light.ttf", size: topTextFontSize!)
         } else {
             let fontsNumber = fonts.count
-            srand(UInt32(time(nil)))
-            let nextFontsIndex = random() % fontsNumber
+            let nextFontsIndex = Int(arc4random_uniform(UInt32(fontsNumber)))
             topTextView.font = UIFont.init(name: fonts[nextFontsIndex], size: topTextFontSize!)
             if (whichFontNumber == 3) {
                 whichFontNumber = 0

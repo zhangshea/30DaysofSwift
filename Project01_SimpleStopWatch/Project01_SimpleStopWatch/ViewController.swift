@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var TimeTextField: UITextField!
 
-    var viewControllerTimer: NSTimer = NSTimer.init()
+    var viewControllerTimer: Timer = Timer.init()
     var viewControllerTimerSetFlag: Bool = false
     var viewControllerTimeNumber: Int = 0
     
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         updateFrame()
     }
 
-    @IBAction func StartTouchDown(sender: AnyObject) {
+    @IBAction func StartTouchDown(_ sender: AnyObject) {
         NSLog("STD: Fire")
         
         if (viewControllerTimerSetFlag) {
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         }
         // create the timer and schedule it on the current run loop in the default mode
         
-        viewControllerTimer = NSTimer.scheduledTimerWithTimeInterval(0.1,
+        viewControllerTimer = Timer.scheduledTimer(timeInterval: 0.1,
                                                                      target: self,
                                                                    selector: #selector(ViewController.viewControllerTimerFire),
                                                                    userInfo: nil,
@@ -51,13 +51,13 @@ class ViewController: UIViewController {
         viewControllerTimerSetFlag = true
     }
     
-    @IBAction func StopTouchDown(sender: AnyObject) {
+    @IBAction func StopTouchDown(_ sender: AnyObject) {
         NSLog("STD: Stop")
         
         viewControllerTimer.invalidate()
         viewControllerTimerSetFlag = false
     }
-    @IBAction func ResetTouchDown(sender: AnyObject) {
+    @IBAction func ResetTouchDown(_ sender: AnyObject) {
         NSLog("RTD: Reset")
         
         viewControllerTimeNumber = 0

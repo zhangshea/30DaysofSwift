@@ -97,6 +97,7 @@
 					C1AB7D101D61A4B600E47C14 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6HNC4TP49C;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -257,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Xinyu-Zhang.Project01-SimpleStopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -271,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Xinyu-Zhang.Project01-SimpleStopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -293,6 +296,7 @@
 				C1AB7D251D61A4B600E47C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

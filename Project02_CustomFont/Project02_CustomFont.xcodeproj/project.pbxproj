@@ -107,6 +107,7 @@
 					C1D314181D6344DC00E73078 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6HNC4TP49C;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -264,6 +265,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Xinyu-Zhang.Project02-CustomFont";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -275,6 +277,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Xinyu-Zhang.Project02-CustomFont";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -297,6 +300,7 @@
 				C1D3142D1D6344DC00E73078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
